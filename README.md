@@ -1,10 +1,10 @@
 # OIBSIP
-# Landing page 
-Demo link http://127.0.0.1:3000/Landing%20Page/index.html
+# Calculator 
+Demo http://127.0.0.1:3000/Calculator/index.html
 
 Screenshot
 
-<img width="1851" height="1010" alt="image" src="https://github.com/user-attachments/assets/12eb24de-e4b1-4677-85fe-62a68f70b11d" />
+<img width="582" height="883" alt="image" src="https://github.com/user-attachments/assets/1ed8fe1c-3c57-4ba2-918e-ccdf4e296fb0" />
 
 
 # Portfolio
