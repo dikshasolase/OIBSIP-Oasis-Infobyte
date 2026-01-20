@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+  }
+  
+  header {
+    background: #fff;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .container {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  }
+  
+  .form-card {
+    width: 300px;
+  }
+  
+  .form-card input,
+  .form-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-card button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .list-card {
+    flex: 1;
+  }
+  
+  .completed-card {
+    background: #f0fff4;
+  }
+  
+  .list-header,
+  .todo-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.2fr 100px;
+    align-items: center;
+  }
+  
+  .list-header {
+    font-weight: bold;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item {
+    background: #f4f6ff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+  }
+  
+  .todo-item.completed {
+    background: #d4edda;
+    text-decoration: line-through;
+    opacity: 0.8;
+  }
+  
+  button {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background: #ff4d6d;
+    color: #fff;
+  }
+  

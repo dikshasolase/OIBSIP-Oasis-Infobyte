@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>To-Do List Web App</h2>
+</header>
+
+<div class="container">
+
+  <!-- Form -->
+  <div class="card form-card">
+    <form id="todoForm">
+      <input type="text" id="title" placeholder="Title" required>
+      <textarea id="description" placeholder="Description" required></textarea>
+      <input type="datetime-local" id="datetime" required>
+      <button type="submit">Add Task</button>
+    </form>
+  </div>
+
+  <!-- Active Tasks -->
+  <div class="card list-card">
+    <h3>Active Tasks</h3>
+    <div class="list-header">
+      <span>Title</span>
+      <span>Description</span>
+      <span>Date & Time</span>
+      <span>Action</span>
+    </div>
+    <div id="todoList"></div>
+  </div>
+
+  <!-- Completed Tasks -->
+  <div class="card list-card completed-card">
+    <h3>Completed Tasks</h3>
+    <div class="list-header">
+      <span>Title</span>
+      <span>Description</span>
+      <span>Date & Time</span>
+      <span>Delete</span>
+    </div>
+    <div id="completedList"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
